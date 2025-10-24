@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Gill Sans MT';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+#logo {
+    height: 70%;
+    /* background-color: #db3d3d; */
+    
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#header{
+    height: 10vh;
+    width: 100%;
+    background-color:white;
+    /* VVI */ 
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text{
+    color: #015a7e;
+    margin: 10px;
+}
+.text:hover{
+    color: #00A1E0;
+}
+#contactDetails{
+    
+    font-weight: lighter;
+    color: #015475;
+}
+
+
+
+#ai {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 2px solid #800080; /* Purple border */
+  background-color: #ffffff; /* White background */
+  color: #1a1a4b; /* Dark blue text */
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+#ai:hover {
+  box-shadow: 0 0 8px rgba(128, 0, 128, 0.4); /* Purple glow on hover */
+}
+
+#ai i {
+  font-size: 20px;
+  color: #800080; /* Purple icon */
+}
+
+#ai p {
+  margin: 0;
+}
+
+
+
+.icons{
+    padding: 10px;
+    border-radius: 50px;
+}
+.icons:hover{
+    background-color: lightblue;
+}
+#login{
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#login:hover{
+    background-color: lightblue;
+}
+#try{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+}
+#try:hover{
+    background-color: rgb(1, 56, 75);
+}
+#backheader{
+    height: 10vh;
+    width: 100%;
+    background-color: yellow;
+}
+#page1{
+    height: 90%; /* vh --> which device u see w.r.t height&width . Don't depend the perent h&w*/
+    width: 100%;
+    background-color: #153d2a;
+}
+#page2{
+    height: 90%; 
+    width: 100%;
+    background-color: #36815e;
+}
