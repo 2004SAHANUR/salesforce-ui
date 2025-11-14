@@ -111,10 +111,52 @@ html,body{
 #page1{
     height: 90%; /* vh --> which device u see w.r.t height&width . Don't depend the perent h&w*/
     width: 100%;
-    background-color: #153d2a;
+    background-color: #4f4d4d;;
 }
+#strip{
+    width: 100%;
+    height:8%;
+    background-color: #1a1a4b;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#strip u{
+    margin-left: 20px;
+    font-weight: lighter;
+}
+#content{
+    width: 100%;
+    height: 76%;
+    background-color: #00A1E0;
+    display: flex;
+}
+#box1{
+    height: 100%;
+    width: 50%;
+    background-color: darkgoldenrod;
+    margin: 10px;
+}
+#box2{
+    height: 100%;
+    width: 50%;
+    background-color:darkgray;
+}
+#heading{
+    width: 100%;
+    height: 16%;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
 #page2{
     height: 90%; 
     width: 100%;
     background-color: #36815e;
 }
+
